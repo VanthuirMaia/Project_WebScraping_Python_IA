@@ -29,24 +29,26 @@ Demonstrar como é possível combinar bibliotecas de scraping com técnicas de I
    Crie e ative um ambiente virtual:
    ```
 
-bash
+'''bash
 Copiar
 Editar
 python -m venv venv
 source venv/bin/activate # Linux/macOS
 venv\Scripts\activate # Windows
+'''
 Instale as dependências:
 
-bash
+'''bash
 Copiar
 Editar
 pip install -r requirements.txt
 Execute o script principal:
-
-bash
+'''
+'''bash
 Copiar
 Editar
 python main.py
+'''
 🧠 Exemplos de uso de IA
 Identificação de padrões nos dados coletados
 
@@ -57,7 +59,7 @@ Análise de sentimentos de comentários ou avaliações
 Extração de entidades nomeadas (NER)
 
 📁 Estrutura do Projeto
-bash
+'''bash
 Copiar
 Editar
 webscraping-ia/
@@ -69,8 +71,9 @@ webscraping-ia/
 ├── requirements.txt # Dependências do projeto
 ├── README.md # Documentação inicial
 └── main.py # Script de execução principal
+'''
 👨‍💻 Autor
-Feito com 💻, ☕ e muita curiosidade por Seu Nome
+Feito com 💻, ☕ e muita curiosidade por Vanthuir Maia
 
 📌 Este README será atualizado conforme o projeto evoluir.
 
