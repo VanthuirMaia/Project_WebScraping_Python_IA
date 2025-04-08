@@ -23,65 +23,56 @@ Demonstrar como é possível combinar bibliotecas de scraping com técnicas de I
 ## 🛠️ Como rodar o projeto
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
-   Crie e ative um ambiente virtual:
    ```
 
-```bash
-Copiar
-Editar
-python -m venv venv
-source venv/bin/activate # Linux/macOS
-venv\Scripts\activate # Windows
+2. Crie e ative um ambiente virtual:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate     # Windows
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Execute o script principal:
+   ```bash
+   python main.py
+   ```
+
+## 🧠 Exemplos de uso de IA
+
+- Identificação de padrões nos dados coletados
+- Classificação automática de conteúdos
+- Análise de sentimentos de comentários ou avaliações
+- Extração de entidades nomeadas (NER)
+
+## 📁 Estrutura do Projeto
+
 ```
-
-Instale as dependências:
-
-```bash
-Copiar
-Editar
-pip install -r requirements.txt
-Execute o script principal:
-```
-
-```bash
-Copiar
-Editar
-python main.py
-```
-
-🧠 Exemplos de uso de IA
-Identificação de padrões nos dados coletados
-
-Classificação automática de conteúdos
-
-Análise de sentimentos de comentários ou avaliações
-
-Extração de entidades nomeadas (NER)
-
-📁 Estrutura do Projeto
-
-```bash
-Copiar
-Editar
 webscraping-ia/
-├── data/ # Dados brutos e processados
-├── src/ # Scripts principais do projeto
-│ ├── scraping.py # Código de scraping
-│ ├── ai_model.py # Lógica de IA aplicada
-│ └── utils.py # Funções auxiliares
-├── requirements.txt # Dependências do projeto
-├── README.md # Documentação inicial
-└── main.py # Script de execução principal
+├── data/                  # Dados brutos e processados
+├── src/                   # Scripts principais do projeto
+│   ├── scraping.py        # Código de scraping
+│   ├── ai_model.py        # Lógica de IA aplicada
+│   └── utils.py           # Funções auxiliares
+├── requirements.txt       # Dependências do projeto
+├── README.md              # Documentação inicial
+└── main.py                # Script de execução principal
 ```
 
-👨‍💻 Autor
+## 👨‍💻 Autor
+
 Feito com 💻, ☕ e muita curiosidade por Vanthuir Maia
 
-📌 Este README será atualizado conforme o projeto evoluir.
+---
 
-yaml
-Copiar
-Editar
+📌 _Este README será atualizado conforme o projeto evoluir._
