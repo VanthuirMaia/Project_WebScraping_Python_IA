@@ -1,29 +1,24 @@
-🕸️ Web Scraping com Python
+# 🕸️ Web Scraping com Python
+
 Este projeto é uma introdução prática ao Web Scraping utilizando Python para extrair, processar e visualizar dados da web de forma automatizada.
 
-📌 Objetivo
+## 📌 Objetivo
+
 Demonstrar como é possível utilizar bibliotecas de scraping com Python para:
 
-Coletar informações de sites de maneira automatizada.
+- Coletar informações de sites de maneira automatizada.
+- Tratar, armazenar e estruturar os dados coletados.
+- Apresentar os dados de forma clara em um dashboard interativo.
 
-Tratar, armazenar e estruturar os dados coletados.
+## 🚀 Tecnologias e Ferramentas
 
-Apresentar os dados de forma clara em um dashboard interativo.
-
-🚀 Tecnologias e Ferramentas
-Python 3.10+
-
-Scrapy (para extração de dados)
-
-Pandas (para tratamento e organização dos dados)
-
-SQLite (para armazenamento local)
-
-Streamlit (para construção do dashboard)
-
-VSCode (ambiente de desenvolvimento)
-
-Git / GitHub (versionamento)
+- **Python 3.10+**
+- **Scrapy (para extração de dados)**
+- **Pandas (para tratamento e organização dos dados)**
+- **SQLite (para armazenamento local)**
+- **Streamlit (para construção do dashboard)**
+- **VSCode (ambiente de desenvolvimento)**
+- **Git / GitHub (versionamento)**
 
 ## 🛠️ Como rodar o projeto
 
@@ -66,13 +61,6 @@ Git / GitHub (versionamento)
    streamlit run app.py
    ```
 
-## 🧠 Exemplos de uso de IA
-
-- Identificação de padrões nos dados coletados
-- Classificação automática de conteúdos
-- Análise de sentimentos de comentários ou avaliações
-- Extração de entidades nomeadas (NER)
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -93,4 +81,4 @@ Feito com 💻, ☕ e muita curiosidade por Vanthuir Maia
 
 ---
 
-📌 _Este README será atualizado conforme o projeto evoluir._
+📌 _*Este README será atualizado conforme o projeto evoluir.*_
