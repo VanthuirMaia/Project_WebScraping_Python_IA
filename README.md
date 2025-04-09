@@ -1,24 +1,29 @@
-# 🕸️ Web Scraping com Python + Inteligência Artificial
+🕸️ Web Scraping com Python
+Este projeto é uma introdução prática ao Web Scraping utilizando Python para extrair, processar e visualizar dados da web de forma automatizada.
 
-Este projeto é uma introdução prática ao **Web Scraping** utilizando **Python** e recursos de **Inteligência Artificial** para extrair, processar e analisar dados da web de forma automatizada e inteligente.
+📌 Objetivo
+Demonstrar como é possível utilizar bibliotecas de scraping com Python para:
 
-## 📌 Objetivo
+Coletar informações de sites de maneira automatizada.
 
-Demonstrar como é possível combinar bibliotecas de scraping com técnicas de IA para:
+Tratar, armazenar e estruturar os dados coletados.
 
-- Coletar informações de sites de maneira automatizada.
-- Tratar e estruturar os dados coletados.
-- Aplicar algoritmos inteligentes para análise, categorização ou tomada de decisão com base nos dados extraídos.
+Apresentar os dados de forma clara em um dashboard interativo.
 
-## 🚀 Tecnologias e Ferramentas
+🚀 Tecnologias e Ferramentas
+Python 3.10+
 
-- **Python 3.10+**
-- **BeautifulSoup** ou **Scrapy** (para scraping)
-- **Requests / Selenium** (para navegação e coleta de dados)
-- **Pandas / Numpy** (para tratamento de dados)
-- **Scikit-Learn / OpenAI / HuggingFace** (para recursos de IA - NLP, classificação, análise etc.)
-- **VSCode** (ambiente de desenvolvimento)
-- **Git / GitHub** (versionamento)
+Scrapy (para extração de dados)
+
+Pandas (para tratamento e organização dos dados)
+
+SQLite (para armazenamento local)
+
+Streamlit (para construção do dashboard)
+
+VSCode (ambiente de desenvolvimento)
+
+Git / GitHub (versionamento)
 
 ## 🛠️ Como rodar o projeto
 
@@ -43,9 +48,22 @@ Demonstrar como é possível combinar bibliotecas de scraping com técnicas de I
    pip install -r requirements.txt
    ```
 
-4. Execute o script principal:
+4. Execute o spider para coletar os dados:
+
+   ```bash
+   scrapy crawl mercadolivre_spider
+   ```
+
+5. Execute o script principal:
+
    ```bash
    python main.py
+   ```
+
+6. Execute o dashboard interativo:
+   ```bash
+   cd src/dashboard
+   streamlit run app.py
    ```
 
 ## 🧠 Exemplos de uso de IA
